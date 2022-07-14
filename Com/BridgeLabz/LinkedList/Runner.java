@@ -13,5 +13,8 @@ public class Runner {
         list.print();
 
         list.searchNode(30);
+        list.insertMid(3, 40);
+        list.print();
+
     }
 }
