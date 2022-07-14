@@ -7,9 +7,10 @@ public class Runner {
 
         LinkedList list = new LinkedList();
 
-        list.addNode(70);
-        list.addNode(30);
-        list.addNode(56);
+        list.insert(56);
+        list.insert(70);
+        list.insertMid(2, 30);
+
         list.print();
     }
 }
