@@ -12,7 +12,6 @@ public class Runner {
         list.insert(70);
         list.print();
 
-        int pop = list.popAtLast();
-        list.print();
+        list.searchNode(30);
     }
 }
