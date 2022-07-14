@@ -12,5 +12,10 @@ public class Runner {
         list.insertMid(2, 30);
 
         list.print();
+        System.out.println("First element is deleted");
+        int pop = list.popAtFirst();
+        System.out.println(pop);
+        System.out.println("After Deleting first element");
+        list.print();
     }
 }
