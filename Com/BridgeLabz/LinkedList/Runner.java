@@ -13,13 +13,10 @@ public class Runner {
         list.print();
 
         list.searchNode(30);
-        /*
-         * Ability to insert 40 after 30 to the Linked List
-         */
         list.insertMid(3, 40);
         list.print();
-        list.delete(40);
-        list.printSize();
+        list.sortedList();
+        System.out.println("sorted data");
         list.print();
 
     }
